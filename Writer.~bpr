@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Writer.exe"/>
+    <OBJFILES value="Writer.obj Cab_full.obj CalcAutoOle.obj Uni_grafw.obj Unit_About.obj 
+      Unit_d.obj Unit_data.obj Unit_Pers.obj Unit_sel.obj Unit_Calndr.obj"/>
+    <RESFILES value="Writer.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Cab_full.dfm Uni_grafw.dfm Unit_About.dfm Unit_d.dfm 
+      Unit_data.dfm Unit_Pers.dfm Unit_sel.dfm Unit_Calndr.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="rxctl6.lib planc6.lib indy.lib vclx.lib vcldb.lib adortl.lib dbrtl.lib 
+      rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib dbrtl.lib adortl.lib vcldb.lib vclx.lib indy.lib 
+      planc6.lib rxctl6.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi kbmMemC6Run.bpi planc6.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT"/>
+    <MAINSOURCE value="Writer.cpp"/>
+    <INCLUDEPATH value="&quot;C:\Program Files (x86)\Borland\CBuilder6\Bin&quot;;&quot;C:\Работа\Запись для Польки&quot;;$(BCB)\include;$(BCB)\include\vcl;C:\Components\RX\Units;C:\Components\PLANNERC6"/>
+    <LIBPATH value="$(BCB)\Projects\Lib;&quot;C:\Program Files (x86)\Borland\CBuilder6\Bin&quot;;&quot;C:\Работа\Запись для Польки&quot;;$(BCB)\lib\obj;$(BCB)\lib;C:\Components\RX\Units;C:\Components\PLANNERC6"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;C:\Program Files (x86)\Borland\CBuilder6\Bin&quot; 
+      -I&quot;C:\Работа\Запись для Польки&quot; -I$(BCB)\include -I$(BCB)\include\vcl 
+      -IC:\Components\RX\Units -IC:\Components\PLANNERC6 -src_suffix cpp 
+      -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Writer.res" FORMNAME="" UNITNAME="Writer.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Writer.cpp" FORMNAME="" UNITNAME="Writer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Cab_full.cpp" FORMNAME="Form_Cab" UNITNAME="Cab_full" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CalcAutoOle.cpp" FORMNAME="" UNITNAME="CalcAutoOle" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Uni_grafw.cpp" FORMNAME="Form_grafw" UNITNAME="Uni_grafw" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit_About.cpp" FORMNAME="Form_About" UNITNAME="Unit_About" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit_d.cpp" FORMNAME="Form_d" UNITNAME="Unit_d" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit_data.cpp" FORMNAME="Data1" UNITNAME="Unit_data" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit_Pers.cpp" FORMNAME="Form_Pers" UNITNAME="Unit_Pers" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit_sel.cpp" FORMNAME="Form_sel" UNITNAME="Unit_sel" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit_Calndr.cpp" FORMNAME="Form_Calndr" UNITNAME="Unit_Calndr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+c:\program files (x86)\borland\cbuilder6\Bin\dclite60.bpl=Borland Integrated Translation Environment
+
+[HistoryLists\hlIncludePath]
+Count=2
+Item0=C:\Program Files (x86)\Borland\CBuilder6\Bin;C:\Работа\Запись для Польки;$(BCB)\include;$(BCB)\include\vcl;C:\Components\RX\Units;C:\Components\PLANNERC6
+Item1=C:\Program Files (x86)\Borland\CBuilder6\Bin;C:\Работа\Запись для Польки;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=2
+Item0=C:\Program Files (x86)\Borland\CBuilder6\Bin;C:\Работа\Запись для Польки;$(BCB)\lib\obj;$(BCB)\lib;C:\Components\RX\Units;C:\Components\PLANNERC6
+Item1=C:\Program Files (x86)\Borland\CBuilder6\Bin;C:\Работа\Запись для Польки;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=2
+Item0=$(BCB)\source\vcl;C:\Components\RX\Units;C:\Components\PLANNERC6
+Item1=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl;C:\Components\RX\Units;C:\Components\PLANNERC6
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>

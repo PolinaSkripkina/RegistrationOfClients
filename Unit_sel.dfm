@@ -1,0 +1,77 @@
+object Form_sel: TForm_sel
+  Left = 409
+  Top = 243
+  Width = 508
+  Height = 362
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 500
+    Height = 324
+    Align = alClient
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Comic Sans MS'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 8
+      Top = 0
+      Width = 37
+      Height = 23
+      Caption = #1042#1088#1072#1095
+    end
+    object RadioGroup1: TRadioGroup
+      Left = 264
+      Top = 16
+      Width = 227
+      Height = 73
+      Caption = #1050#1083#1080#1077#1085#1090
+      Font.Charset = RUSSIAN_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Comic Sans MS'
+      Font.Style = [fsBold]
+      ItemIndex = 0
+      Items.Strings = (
+        #1041#1099#1083' '#1088#1072#1085#1085#1077#1077
+        #1053#1077' '#1086#1073#1088#1072#1097#1072#1083#1089#1103)
+      ParentFont = False
+      TabOrder = 0
+    end
+    object Button1: TButton
+      Left = 336
+      Top = 168
+      Width = 113
+      Height = 41
+      Caption = 'Ok'
+      ModalResult = 1
+      TabOrder = 1
+      OnClick = Button1Click
+    end
+    object CheckListBox1: TCheckListBox
+      Left = 8
+      Top = 24
+      Width = 241
+      Height = 153
+      ItemHeight = 23
+      Items.Strings = (
+        '1'
+        '2')
+      TabOrder = 2
+    end
+  end
+end
